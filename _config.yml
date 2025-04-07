@@ -21,6 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 
+mission_statement: >- # Add your mission statement here
+  Medieval Crime specializes in artwork that brings historical crime scenes and medieval justice to life. Our artists blend historical accuracy with creative interpretation to showcase the darker side of medieval times.
+
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -37,6 +40,12 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+
+# Collections - Add artists collection
+collections:
+  artists:
+    output: true
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -110,6 +119,15 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _artists - Add defaults for artists
+  - scope:
+      path: ""
+      type: artists
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      classes: wide
 
 category_archive:
   type: liquid

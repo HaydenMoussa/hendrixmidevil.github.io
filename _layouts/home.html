@@ -1,22 +1,53 @@
 ---
-layout: archive
+layout: default
 ---
 
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+<div class="hero-section">
+  <div class="page__hero">
+    <div class="wrapper">
+      <div class="hero-container">
+        <div class="logo-container">
+          <img src="{{ '/assets/images/logo.jpg' | relative_url }}" alt="{{ site.title }} Logo" class="site-logo">
+        </div>
+        <div class="mission-statement">
+          <h2>Our Mission</h2>
+          <p>{{ site.mission_statement }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-{% include paginator.html %}
+<div id="main" role="main">
+  <div class="wrapper">
+    <div class="archive">
+      <h1 class="page__title">Our Artists</h1>
+      
+      <div class="artists-grid">
+        <!-- Manually add John Doe artist for testing -->
+        <div class="artist-card">
+          <div class="artist-headshot">
+            <img src="/assets/images/bio-photo.jpg" alt="John Doe">
+          </div>
+          <div class="artist-info">
+            <h3 class="artist-name"><a href="/artists/johndoe">John Doe</a></h3>
+            <p>John Doe is a contemporary artist specializing in abstract expressionism, bringing vibrant colors and dynamic forms to life on canvas.</p>
+          </div>
+        </div>
+        
+        <!-- Original for loop for when collections are working -->
+        {% for artist in site.artists %}
+          <div class="artist-card">
+            <div class="artist-headshot">
+              <img src="/assets/images/bio-photo.jpg" alt="{{ artist.name }}">
+            </div>
+            <div class="artist-info">
+              <h3 class="artist-name"><a href="{{ artist.url | relative_url }}">{{ artist.name }}</a></h3>
+              <p>{{ artist.excerpt }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

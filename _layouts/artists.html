@@ -1,0 +1,32 @@
+---
+layout: single
+---
+
+<div class="artist-page">
+  <div class="artist-header">
+    <div class="artist-headshot">
+      <img src="/assets/images/bio-photo.jpg" alt="{{ page.name }}">
+    </div>
+    <div class="artist-info">
+      <h1>{{ page.name }}</h1>
+      <div class="artist-bio">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% if page.artworks %}
+  <section class="artist-gallery">
+    <h2>Artwork</h2>
+    <div class="artwork-grid">
+      {% for artwork in page.artworks %}
+        <div class="artwork">
+          <img src="/assets/images/bio-photo.jpg" alt="{{ artwork.title }}">
+          <h3>{{ artwork.title }}</h3>
+          <p>{{ artwork.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</div>

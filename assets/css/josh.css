@@ -1,0 +1,207 @@
+/* Global styles and margins */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+/* Hero section */
+.hero-section {
+  margin-bottom: 3em;
+}
+  
+.hero-section .page__hero {
+  background-color: #f3f3f3;
+  padding: 3em 0;
+}
+  
+.hero-section .hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.hero-section .logo-container {
+  flex: 1;
+  order: 1; /* Logo first (left) */
+  min-width: 250px;
+  max-width: 350px;
+}
+  
+.hero-section .mission-statement {
+  flex: 2;
+  order: 2; /* Mission statement second (right) */
+}
+
+.hero-section .site-logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  
+.hero-section .mission-statement h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+  
+.hero-section .mission-statement p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Mobile adjustments for hero section */
+@media (max-width: 768px) {
+  .hero-section .hero-container {
+    flex-direction: column-reverse; /* Stack on mobile with logo on top */
+  }
+  
+  .hero-section .mission-statement,
+  .hero-section .logo-container {
+    order: initial; /* Reset order for mobile */
+  }
+  
+  .hero-section .logo-container {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Artist section */
+.archive {
+  margin-bottom: 3em;
+}
+
+.page__title {
+  margin-top: 0;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 0.5em;
+}
+
+.artists-grid {
+  margin-top: 2em;
+}
+
+.artist-card {
+  display: flex;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.artist-card:last-child {
+  border-bottom: none;
+}
+
+.artist-headshot {
+  flex: 0 0 150px;
+  margin-right: 1.5em;
+}
+  
+.artist-headshot img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.artist-info {
+  flex: 1;
+}
+  
+.artist-info h3.artist-name {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+  
+.artist-info h3.artist-name a {
+  text-decoration: none;
+  color: #333;
+}
+  
+.artist-info h3.artist-name a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile adjustments for artist cards */
+@media (max-width: 768px) {
+  .artist-card {
+    flex-direction: column;
+  }
+  
+  .artist-headshot {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+
+/* Artist individual page styles */
+.artist-header {
+  display: flex;
+  margin-bottom: 2em;
+}
+  
+.artist-header .artist-headshot {
+  flex: 0 0 200px;
+  margin-right: 2em;
+}
+
+.artist-header .artist-info {
+  flex: 1;
+}
+  
+.artist-header .artist-info h1 {
+  margin-top: 0;
+}
+
+/* Mobile adjustments for artist header */
+@media (max-width: 768px) {
+  .artist-header {
+    flex-direction: column;
+  }
+  
+  .artist-header .artist-headshot {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+
+/* Artist gallery styles */
+.artist-gallery h2 {
+  margin-bottom: 1em;
+}
+  
+.artist-gallery .artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2em;
+}
+  
+.artist-gallery .artwork {
+  margin-bottom: 1.5em;
+}
+  
+.artist-gallery .artwork img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+  
+.artist-gallery .artwork h3 {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+}
+  
+.artist-gallery .artwork p {
+  font-size: 0.9em;
+  color: #555;
+}
