@@ -1,0 +1,140 @@
+/* French works two-column layout */
+.document-container {
+    display: flex;
+    margin: 1em 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center; /* Center all text in the document container */
+  }
+  
+  .document-column {
+    flex: 1;
+    padding: 1em 1.5em;
+    word-wrap: break-word;
+    min-width: 0; /* Allow flex items to shrink below content size */
+  }
+  
+  .document-column.original {
+    border-left: 2px solid #000;
+  }
+  
+  .document-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.75em;
+    text-align: center; /* Center the title */
+  }
+  
+  .document-content {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center; /* Center the content text */
+  }
+  
+  .document-content p {
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center; /* Ensure paragraphs are centered */
+  }
+  
+  /* Essays section */
+  .essays-section {
+    margin-top: 2.5em;
+    border-top: 2px solid #000;
+    padding-top: 1.5em;
+    width: 100%;
+    text-align: center; /* Center text in essays section */
+  }
+  
+  .essays-title {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    text-align: center; /* Center the essays title */
+  }
+  
+  .essay {
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  
+  .essay-title {
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+    text-align: center; /* Center essay titles */
+  }
+  
+  .essay-author {
+    font-style: italic;
+    margin-bottom: 0.8em;
+    font-size: 0.9em;
+    text-align: center; /* Center author name */
+  }
+  
+  .essay-content {
+    line-height: 1.6;
+    text-align: center; /* Center essay content */
+  }
+  
+  .essay-content h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center; /* Center headings */
+  }
+  
+  .essay-content p {
+    text-align: center; /* Ensure essay paragraphs are centered */
+  }
+  
+  /* Override theme restrictions to expand content width */
+  .page__inner-wrap {
+    padding: 0 !important;
+    max-width: 100% !important;
+    text-align: center; /* Center all content */
+  }
+  
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+  
+  article.page {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .wrapper {
+    max-width: 95% !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+    padding: 0 1.5em !important;
+  }
+  
+  #main {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  /* Also center the page title */
+  .page__title {
+    text-align: center !important;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .document-container {
+      flex-direction: column;
+    }
+    
+    .document-column.original {
+      border-left: none;
+      border-top: 2px solid #000;
+      margin-top: 1.5em;
+      padding-top: 1.5em;
+    }
+    
+    .document-column {
+      padding: 0.75em;
+    }
+  }

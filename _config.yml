@@ -47,6 +47,11 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+collections:
+  french_works:
+    output: true
+    permalink: /french-works/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

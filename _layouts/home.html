@@ -21,29 +21,23 @@ layout: default
 <div id="main" role="main">
   <div class="wrapper">
     <div class="archive">
-      <h1 class="page__title">Our Artists</h1>
+      <h1 class="page__title">French Historical Works</h1>
       
       <div class="artists-grid">
-        <!-- Manually add John Doe artist for testing -->
+        <!-- Fixed link for French historical work -->
         <div class="artist-card">
-          <div class="artist-headshot">
-            <img src="/assets/images/bio-photo.jpg" alt="John Doe">
-          </div>
           <div class="artist-info">
-            <h3 class="artist-name"><a href="/artists/johndoe">John Doe</a></h3>
-            <p>John Doe is a contemporary artist specializing in abstract expressionism, bringing vibrant colors and dynamic forms to life on canvas.</p>
+            <h3 class="artist-name"><a href="{{ '/french-works/an-jj-169' | relative_url }}">Archives Nationales JJ 169 fo 228v no 333</a></h3>
+            <p>A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.</p>
           </div>
         </div>
         
         <!-- Original for loop for when collections are working -->
-        {% for artist in site.artists %}
+        {% for work in site.french_works %}
           <div class="artist-card">
-            <div class="artist-headshot">
-              <img src="/assets/images/bio-photo.jpg" alt="{{ artist.name }}">
-            </div>
             <div class="artist-info">
-              <h3 class="artist-name"><a href="{{ artist.url | relative_url }}">{{ artist.name }}</a></h3>
-              <p>{{ artist.excerpt }}</p>
+              <h3 class="artist-name"><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h3>
+              <p>{{ work.excerpt }}</p>
             </div>
           </div>
         {% endfor %}
