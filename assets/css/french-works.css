@@ -1,10 +1,9 @@
 /* French works two-column layout */
 .document-container {
     display: flex;
-    margin: 1em 0;
-    width: 100%;
-    max-width: 100%;
-    text-align: center; /* Center all text in the document container */
+    margin: 1em auto; /* Changed from 1em 0 to 1em auto for centering */
+    width: 90%; /* Reduced from 100% to give some margin */
+    max-width: 1200px; /* Set a max-width for better readability on large screens */
   }
   
   .document-column {
@@ -22,102 +21,169 @@
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0.75em;
-    text-align: center; /* Center the title */
+    text-align: center;
   }
   
   .document-content {
     font-size: 1em;
     line-height: 1.6;
-    text-align: center; /* Center the content text */
   }
   
   .document-content p {
     margin-bottom: 1em;
     width: 100%;
-    text-align: center; /* Ensure paragraphs are centered */
+    text-align: left;
   }
   
   /* Essays section */
   .essays-section {
-    margin-top: 2.5em;
+    margin: 2.5em auto 0 auto; /* Changed to auto horizontal margins */
     border-top: 2px solid #000;
     padding-top: 1.5em;
-    width: 100%;
-    text-align: center; /* Center text in essays section */
+    width: 90%; /* Reduced from 100% */
+    max-width: 1200px;
   }
   
   .essays-title {
     font-size: 1.8em;
     margin-bottom: 1em;
-    text-align: center; /* Center the essays title */
+    text-align: center;
   }
   
   .essay {
-    margin-bottom: 2em;
-    width: 100%;
+    margin: 0 auto 2em auto; /* Changed to auto horizontal margins */
+    width: 95%;
+    max-width: 900px;
   }
   
   .essay-title {
     font-size: 1.4em;
     margin-bottom: 0.3em;
-    text-align: center; /* Center essay titles */
+    text-align: center;
   }
   
   .essay-author {
     font-style: italic;
     margin-bottom: 0.8em;
     font-size: 0.9em;
-    text-align: center; /* Center author name */
+    text-align: center;
   }
   
   .essay-content {
     line-height: 1.6;
-    text-align: center; /* Center essay content */
   }
   
   .essay-content h4 {
     margin-top: 1em;
     margin-bottom: 0.5em;
-    text-align: center; /* Center headings */
+    text-align: center;
   }
   
   .essay-content p {
-    text-align: center; /* Ensure essay paragraphs are centered */
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  /* Override theme restrictions to expand content width */
-  .page__inner-wrap {
-    padding: 0 !important;
-    max-width: 100% !important;
-    text-align: center; /* Center all content */
-  }
-  
-  .page__content {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 0 !important;
+  /* Force main containers to be centered */
+  body .document-container,
+  body .essays-section,
+  body .essay {
+    margin-left: auto !important;
+    margin-right: auto !important;
     float: none !important;
   }
   
-  article.page {
+  /* Target parent containers that might be causing the issue */
+  body .page__content,
+  body article.page,
+  body #main,
+  body .page__inner-wrap,
+  body .initial-content,
+  body main.content,
+  body div.content,
+  body div[role="main"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    text-align: left;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Reset any potential grid or flex layouts in parent elements */
+  body .grid,
+  body .grid__item,
+  body .grid__wrapper,
+  body .layout--single,
+  body .layout--archive {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     width: 100% !important;
     max-width: 100% !important;
   }
   
-  .wrapper {
-    max-width: 95% !important;
-    width: 95% !important;
-    margin: 0 auto !important;
-    padding: 0 1.5em !important;
+  /* Reset any potential fixed positioning */
+  body {
+    position: relative !important;
   }
   
-  #main {
-    max-width: 100% !important;
+  /* Specifically target Jekyll page title - add these to target the page title */
+  .page-title,
+  .page__title,
+  .content h1,
+  h1.page-title,
+  .page-header h1,
+  .page__header h1,
+  .entry-title,
+  article h1,
+  .layout--single h1,
+  .archive h1 {
+    text-align: center !important;
     width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    float: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   
-  /* Also center the page title */
-  .page__title {
+  /* Target title container elements */
+  .page-header,
+  .page__header,
+  .entry-header,
+  .title-wrapper,
+  header.page-header,
+  .page__title-wrapper,
+  .page-heading,
+  .post-header {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    float: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Very aggressive approach to ensure title centering */
+  body h1,
+  body h1 * {
+    text-align: center !important;
+  }
+  
+  /* Target the Jekyll main title container */
+  .main-title,
+  .site-title,
+  .page-title-inner,
+  .title-area,
+  .masthead__title {
     text-align: center !important;
   }
   
@@ -125,6 +191,7 @@
   @media (max-width: 768px) {
     .document-container {
       flex-direction: column;
+      width: 95%;
     }
     
     .document-column.original {
@@ -136,5 +203,9 @@
     
     .document-column {
       padding: 0.75em;
+    }
+    
+    .essays-section {
+      width: 95%;
     }
   }
