@@ -5,7 +5,21 @@ permalink: /french-works/an-jj-169/
 excerpt: A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.
 ---
 
-<div class="document-container">
+<div class="sidebar">
+    <h2>Navigation</h2>
+    <ul>
+      <li class="subsection"><a href="#translation">English/French</a></li>
+      <li class="subsection"><a href="#summary">Document Summary</a></li>
+      <li class="section-heading">Essays:</li>
+      <li class="subsection"><a href="#medieval-motherhood">Medieval Motherhood</a></li>
+      <li class="subsection"><a href="#social-expectations">Social Expectations</a></li>
+      <li class="subsection"><a href="#male-female-honor">Male and Female Honor</a></li>
+      <li class="subsection"><a href="#money-class">Money and Class</a></li>
+      <li class="subsection"><a href="#witchcraft">Witchcraft</a></li>
+    </ul>
+  </div>
+
+<div id="translation" class="document-container">
   <div class="document-column translation">
     <div class="document-title">Translation</div>
     <div class="document-content">
@@ -17,7 +31,7 @@ Charles etc. We make known to all present and in the future we have received the
     </div>
   </div>
   
-  <div class="document-column original">
+  <div id="original-french" class="document-column original">
     <div class="document-title">Original French Text</div>
     <div class="document-content">
       <p>Charles etc Savoir faisons a tous presens et avenir nous avon receu lumble supplicacion des parens et amis charnelz de jehan hanon povre homme varlet cordonannier demourant aparis contenant que comme des xvj ou xvij ans a ou environ il eust prins par mariage huguecte sa femme avecques laquels il ait este bien et honsetement par le bon ennortement de bonne vie quil lui faisoit jusques ace que viij ans ou environ que ladite huguecte luj a mene tresmauvaise vie la laissie plusieurs fois par un mois ou deux sans savoir ou elle estoit ne soy tenu en sa compaignie comme elle devoit et estoit tenue de faire mais estoit ce se tenoit avecques ses ribaux pour lesquelz tenu en amour elle faisoit plusieurs menues marchandises et sobligoit envers plusieurs personnes dont aladite cause et en default de paiement elle a este par moult long temps prisonniere a plusieurs fois sans avoir en aucune bonne voulente ne obeissance a son dit marj mais lui ait dit par plusieurs fois en demonstrant sa mauvaise voulente quelle sen yroit au bourdeau et quelle vouldroit que les enfans quelle avoit euz de luj feussent devenue crapox et quelle le feroit une fois mourir de mauvaise mort...</p>
@@ -29,10 +43,10 @@ Charles etc. We make known to all present and in the future we have received the
   </div>
 </div>
 
-<div class="essays-section">
+<div id="summary" class="essays-section">
   <div class="essay">
   <h2 class="essays-title">Summary</h2>
-    <div class = "essat-content">
+    <div class = "essay-content">
       <p>Jehan Hanon was a poor shoemaker from Paris who applied for a pardon for his crime against his wife. Between 16 and 17 years before this plea, he married Huguecte. Hanon was a faithful and good husband to her until eight years into the marriage when Huguecte began to cause problems in the marriage. She would leave Hanon for months at a time without telling him where she went.</p>
       
       <p>According to Hanon, she even wished that their children could be turned into toads. This was also when she began threatening his life.</p>
@@ -46,7 +60,7 @@ Charles etc. We make known to all present and in the future we have received the
       <p>Hanon was taken to prison in the Castle of La Motte at Luzarches and had been there for three months at the time of the letter. Finally, the letter requests that he be pardoned for his crime based on his previous honorable life. His actions toward his wife were framed as an outlier, as he had put up with her bad behavior for at least eight years. Hanon requested pardon from the King and he was granted pardon in October of 1416.</p>
     </div>
 
-    <h3 class="essay-title">Medieval Motherhood</h3>
+    <h3 id="medieval-motherhood" class="essay-title">Medieval Motherhood</h3>
     <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
     <div class="essay-content">
       <p>In the Middle Ages, being a wife was difficult; so was being a mother. In the Good Wife's Guide, there is a section dedicated to motherhood. All wives were expected to become mothers. All aspects of child rearing were left up to the mother. The knowledge and fears about childbearing and raising children all stemmed from women, as the husbands were expected to continue working.</p>
@@ -59,7 +73,7 @@ Charles etc. We make known to all present and in the future we have received the
     </div>
   </div>
   
-  <div class="essay">
+  <div id="social-expectations" class="essay">
     <h3 class="essay-title">Social Expectations in Medieval Marriage</h3>
     <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
     <div class="essay-content">
@@ -75,7 +89,7 @@ Charles etc. We make known to all present and in the future we have received the
     </div>
   </div>
   
-  <div class="essay">
+  <div id="male-female-honor" class="essay">
     <h3 class="essay-title">Male and Female Honor</h3>
     <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
     <div class="essay-content">
@@ -89,7 +103,7 @@ Charles etc. We make known to all present and in the future we have received the
     </div>
   </div>
   
-  <div class="essay">
+  <div id="money-class" class="essay">
     <h3 class="essay-title">Money and Class</h3>
     <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
     <div class="essay-content">
@@ -104,7 +118,7 @@ Charles etc. We make known to all present and in the future we have received the
     </div>
   </div>
   
-  <div class="essay">
+  <div id="witchcraft" class="essay">
     <h3 class="essay-title">Witchcraft</h3>
     <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
     <div class="essay-content">
