@@ -11,7 +11,7 @@ excerpt: A 15th century French legal document detailing the case of Jehan Hanon,
       <li class="subsection"><a href="#translation">English/French</a></li>
       <li class="subsection"><a href="#summary">Document Summary</a></li>
       <li class="section-heading">Essays:</li>
-      <li class="subsection"><a href="#medieval-motherhood">Medieval Motherhood</a></li>
+      <li class="subsection"><a href="/essays/169-medieval-motherhood/">Medieval Motherhood</a></li>
       <li class="subsection"><a href="#social-expectations">Social Expectations</a></li>
       <li class="subsection"><a href="#male-female-honor">Male and Female Honor</a></li>
       <li class="subsection"><a href="#money-class">Money and Class</a></li>
@@ -71,7 +71,7 @@ Charles etc. We make known to all present and in the future we have received the
       <p>Greco, Gina L., and Christine M. Rose, eds. 2009. <em>The Good Wife's Guide =: Le Ménagier de Paris: A Medieval Household Book</em>. Ithaca: Cornell University Press.</p>
       <p>Atkinson, Clarissa W. <em>The Oldest Vocation: Christian Motherhood in the Medieval West</em>. Cornell University Press, 1991.</p>
     </div>
-  </div>
+    </div>
   
   <div id="social-expectations" class="essay">
     <h3 class="essay-title">Social Expectations in Medieval Marriage</h3>

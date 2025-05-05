@@ -52,6 +52,11 @@ collections:
     output: true
     permalink: /french-works/:path/
 
+collections:
+  essays:
+    output: true
+    permalink: /essays/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

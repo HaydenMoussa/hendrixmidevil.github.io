@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/french-works.css' | relative_url }}">
+
+<div id="main" role="main">
+  <div class="wrapper">
+    <article class="page">
+      <div class="page__inner-wrap">
+        <header class="page__header">
+          <h1 class="page__title">{{ page.title }}</h1>
+        </header>
+        
+        <section class="page__content">
+          <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+              <li class="section-heading">Essays:</li>
+              <li class="subsection"><a href="/essays/169-medieval-motherhood/">Medieval Motherhood</a></li>
+            </ul>
+          </div>
+          {{ content }}
+        </section>
+      </div>
+    </article>
+  </div>
+</div>
