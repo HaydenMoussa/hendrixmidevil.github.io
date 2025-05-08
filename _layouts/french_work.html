@@ -5,17 +5,41 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/french-works.css' | relative_url }}">
 
 <div id="main" role="main">
-  <div class="wrapper">
-    <article class="page">
-      <div class="page__inner-wrap">
-        <header class="page__header">
-          <h1 class="page__title">{{ page.title }}</h1>
-        </header>
-        
-        <section class="page__content">
-          {{ content }}
-        </section>
-      </div>
-    </article>
+  <div class="page-content">
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li class="subsection"><a href="#translation">English/French</a></li>
+        <li class="subsection"><a href="#summary">Document Summary</a></li>
+        <li class="section-heading">Essays:</li>
+        {% if page.essays %}
+          {% for essay in page.essays %}
+            <li class="subsection"><a href="#{{ essay.id }}">{{ essay.title }}</a></li>
+          {% endfor %}
+        {% else %}
+          <li class="subsection"><a href="#medieval-motherhood">Medieval Motherhood</a></li>
+          <li class="subsection"><a href="#social-expectations">Social Expectations</a></li>
+          <li class="subsection"><a href="#male-female-honor">Male and Female Honor</a></li>
+          <li class="subsection"><a href="#money-class">Money and Class</a></li>
+          <li class="subsection"><a href="#witchcraft">Witchcraft</a></li>
+        {% endif %}
+      </ul>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+      <article class="page">
+        <div class="page__inner-wrap">
+          <header class="page__header">
+            <h1 class="page__title">{{ page.title }}</h1>
+          </header>
+          
+          <section class="page__content">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
   </div>
 </div>

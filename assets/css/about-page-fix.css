@@ -1,0 +1,73 @@
+/* About Page Specific Fixes */
+body.layout--single #main {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  
+  body.layout--single .page {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 2em !important;
+  }
+  
+  body.layout--single .page__inner-wrap {
+    padding: 2em !important;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  body.layout--single .page__content {
+    margin: 0 auto !important;
+    max-width: 800px !important;
+    padding: 1em 2em !important;
+  }
+  
+  /* Restore proper margins for headings and content */
+  body.layout--single #main h1 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.8em !important;
+    font-size: 2.2em !important;
+  }
+  
+  body.layout--single #main h2 {
+    margin-top: 1.2em !important;
+    margin-bottom: 0.6em !important;
+    font-size: 1.8em !important;
+  }
+  
+  body.layout--single #main p {
+    margin-bottom: 1.2em !important;
+    line-height: 1.7 !important;
+  }
+  
+  /* Fix for the title on the About page */
+  body.layout--single #main #page-title,
+  body.layout--single #main .page__title {
+    text-align: center !important;
+    margin-bottom: 1.5em !important;
+  }
+  
+  /* Add proper spacing around content sections */
+  body.layout--single #main section {
+    margin-bottom: 2em !important;
+  }
+  
+  /* Ensure content has proper width on mobile */
+  @media screen and (max-width: 768px) {
+    body.layout--single .page {
+      padding: 1em !important;
+    }
+    
+    body.layout--single .page__inner-wrap {
+      padding: 1em !important;
+    }
+    
+    body.layout--single .page__content {
+      padding: 0.5em 1em !important;
+    }
+  }

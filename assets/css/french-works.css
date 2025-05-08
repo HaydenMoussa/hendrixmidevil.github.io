@@ -1,269 +1,276 @@
+/* Add this CSS variable for top navbar height */
+:root {
+  --top-navbar-height: 60px; /* Adjust this value based on your actual top navbar height */
+}
+
+#main {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container structure */
+.page-content {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  height: calc(100vh - var(--top-navbar-height)); /* Adjust height to account for top navbar */
+  position: fixed;
+  top: var(--top-navbar-height); /* Position below top navbar */
+  left: 0;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #999;
+  font-size: 1.3rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  display: block;
+  color: #555;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.sidebar li a:hover {
+  background-color: #e0e0e0;
+  color: #222;
+}
+
+.sidebar li a.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.sidebar .section-heading {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #444;
+}
+
+.sidebar .subsection {
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  margin-left: 250px; /* Same as sidebar width */
+  padding: 20px;
+  width: calc(100% - 250px);
+  box-sizing: border-box;
+}
+
+/* Page title styling */
+.page__title {
+  text-align: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.5em !important;
+  padding-bottom: 0.5em !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.page__header {
+  margin-bottom: 1.5em;
+}
+
 /* French works two-column layout */
 .document-container {
-    display: flex;
-    margin: 1em auto; /* Center horizontally */
-    width: 100%; /* Use full width of parent */
-    max-width: 1400px; /* Reduced from 1800px for better readability */
-    padding: 0 15px; /* Add padding to prevent content from touching edges */
-    box-sizing: border-box; /* Make sure padding doesn't add to width */
+  display: flex;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  box-sizing: border-box;
 }
   
 .document-column {
-    flex: 1;
-    padding: 1em 2em; /* Increased horizontal padding */
-    word-wrap: break-word;
-    min-width: 0; /* Allow flex items to shrink below content size */
+  flex: 1;
+  padding: 1em 2em;
+  word-wrap: break-word;
+  min-width: 0;
 }
   
 .document-column.original {
-    border-left: 2px solid #000;
+  border-left: 2px solid #000;
 }
   
 .document-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 0.75em;
-    text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  text-align: center;
 }
   
 .document-content {
-    font-size: 1em;
-    line-height: 1.6;
-    max-width: none; /* Remove any max-width constraints */
+  font-size: 1em;
+  line-height: 1.6;
 }
   
 .document-content p {
-    margin-bottom: 1em;
-    width: 100%;
-    text-align: left;
-    max-width: none; /* Remove any max-width constraints */
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: left;
 }
   
 /* Essays section */
 .essays-section {
-    margin: 2.5em auto 0 auto;
-    border-top: 2px solid #000;
-    padding-top: 1.5em;
-    width: 100%; /* Use full width */
-    max-width: 1200px; /* Reduced back to original size for better readability */
-    padding: 0 15px;
-    box-sizing: border-box;
+  margin: 2.5em auto 0 auto;
+  border-top: 2px solid #000;
+  padding-top: 1.5em;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  box-sizing: border-box;
 }
   
 .essays-title {
-    font-size: 1.8em;
-    margin-bottom: 1em;
-    text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  text-align: center;
 }
   
 .essay {
-    margin: 0 auto 2em auto;
-    width: 100%; /* Use full width */
-    max-width: 1200px; /* Increased from 900px */
+  margin: 0 auto 2em auto;
+  width: 100%;
+  max-width: 1000px;
 }
   
 .essay-title {
-    font-size: 1.4em;
-    margin-bottom: 0.3em;
-    text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 0.3em;
+  text-align: center;
 }
   
 .essay-author {
-    font-style: italic;
-    margin-bottom: 0.8em;
-    font-size: 0.9em;
-    text-align: center;
+  font-style: italic;
+  margin-bottom: 0.8em;
+  font-size: 0.9em;
+  text-align: center;
 }
   
 .essay-content {
-    line-height: 1.6;
+  line-height: 1.6;
 }
   
 .essay-content h4 {
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
 }
   
 .essay-content p {
-    text-align: left;
-    max-width: 800px; /* Reduced back to original size for better readability */
-    margin-left: auto;
-    margin-right: auto;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Remove any potential conflicting styles from parent theme */
 body .wrapper,
-body main,
+body #main,
 body article,
 body .page {
-    max-width: none !important;
-    width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
 }
 
-/* Ensure content fills available space */
-body .document-container,
-body .essays-section,
-body .essay {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
+body .page__inner-wrap {
+  padding: 0 !important;
 }
-  
-/* Target parent containers that might be causing the issue */
-body .page__content,
-body article.page,
-body #main,
-body .page__inner-wrap,
-body .initial-content,
-body main.content,
-body div.content,
-body div[role="main"] {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
-    text-align: left;
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    box-sizing: border-box !important;
-}
-  
-/* Reset any potential grid or flex layouts in parent elements */
-body .grid,
-body .grid__item,
-body .grid__wrapper,
-body .layout--single,
-body .layout--archive {
-    float: none !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 100% !important;
-    max-width: 100% !important;
+
+/* Add padding to the top of the page to account for fixed top navbar */
+.page-content {
+  padding-top: var(--top-navbar-height);
 }
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
-    .document-container {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 10px;
-    }
-    
-    .document-column.original {
-        border-left: none;
-        border-top: 2px solid #000;
-        margin-top: 1.5em;
-        padding-top: 1.5em;
-    }
-    
-    .document-column {
-        padding: 0.75em;
-    }
-    
-    .essays-section {
-        width: 100%;
-        padding: 0 10px;
-    }
-    
-    .essay-content p {
-        max-width: 100%;
-    }
+  .page-content {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    top: 0; /* Reset top position for mobile */
+  }
+  
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .document-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  
+  .document-column.original {
+    border-left: none;
+    border-top: 2px solid #000;
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+  }
+  
+  .document-column {
+    padding: 0.75em;
+  }
+  
+  .essays-section {
+    padding: 0 10px;
+  }
+  
+  .essay-content p {
+    max-width: 100%;
+  }
 }
 
-/* NEW CODE: Direct specific targeting for the page title */
-.page__title,
-h1.page__title {
-  text-align: center !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  display: block !important;
+/* JavaScript fallback for browsers that don't support CSS variables */
+@supports not (--top-navbar-height: 60px) {
+  .sidebar {
+    top: 60px;
+    height: calc(100vh - 60px);
+  }
+  
+  .page-content {
+    padding-top: 60px;
+  }
 }
-
-/* NEW CODE: More specific selector targeting the header container */
-.page__header,
-header.page__header {
-  text-align: center !important;
-  width: 100% !important;
-}
-
-/* NEW CODE: Force center alignment with !important for the specific layout structure */
-.page__inner-wrap header h1,
-.page .page__inner-wrap .page__header .page__title {
-  text-align: center !important;
-}
-
-/* NEW CODE: Target any Jekyll template structure specifically */
-.wrapper article header h1,
-.wrapper .page__inner-wrap header h1 {
-  text-align: center !important;
-}
-
-/* NEW CODE: Override any potential flex settings in the header */
-.page__header {
-  display: block !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-.sidebar {
-    width: 250px;
-    background-color: white;
-    padding: 20px;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    border-right: 1px solid #ddd;
-    overflow-y: auto;
-  }
-  
-  .sidebar h2 {
-    margin-top: 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #999;
-    font-size: 1.3rem;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .sidebar li {
-    margin-bottom: 10px;
-  }
-  
-  .sidebar li a {
-    display: block;
-    color: #555;
-    text-decoration: none;
-    padding: 8px 10px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-  }
-  
-  .sidebar li a:hover {
-    background-color: #e0e0e0;
-    color: #222;
-  }
-  
-  .sidebar li a.active {
-    background-color: #ddd;
-    font-weight: bold;
-  }
-  
-  .sidebar .section-heading {
-    font-weight: bold;
-    margin-top: 15px;
-    color: #444;
-  }
-  
-  .sidebar .subsection {
-    margin-left: 15px;
-    font-size: 0.9em;
-  }

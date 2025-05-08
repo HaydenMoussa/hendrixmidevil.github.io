@@ -41,21 +41,14 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
-# Collections - Add artists collection
-collections:
-  artists:
-    output: true
-    permalink: /:collection/:path/
-
 collections:
   french_works:
     output: true
     permalink: /french-works/:path/
-
-collections:
   essays:
     output: true
     permalink: /essays/:path/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

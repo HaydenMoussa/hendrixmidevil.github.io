@@ -1,7 +1,9 @@
 ---
+title: About
+layout: single
 permalink: /about/
-title: "About"
-author_profile: false
+custom_css: about-page-fix
+author: false
 ---
 
 # About Medieval Crime
