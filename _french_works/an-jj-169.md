@@ -5,20 +5,6 @@ permalink: /french-works/an-jj-169/
 excerpt: A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.
 ---
 
-<div class="sidebar">
-    <h2>Navigation</h2>
-    <ul>
-      <li class="subsection"><a href="#translation">English/French</a></li>
-      <li class="subsection"><a href="#summary">Document Summary</a></li>
-      <li class="section-heading">Essays:</li>
-      <li class="subsection"><a href="/essays/169-medieval-motherhood/">Medieval Motherhood</a></li>
-      <li class="subsection"><a href="#social-expectations">Social Expectations</a></li>
-      <li class="subsection"><a href="#male-female-honor">Male and Female Honor</a></li>
-      <li class="subsection"><a href="#money-class">Money and Class</a></li>
-      <li class="subsection"><a href="#witchcraft">Witchcraft</a></li>
-    </ul>
-  </div>
-
 <div id="translation" class="document-container">
   <div class="document-column translation">
     <div class="document-title">Translation</div>
@@ -59,75 +45,3 @@ Charles etc. We make known to all present and in the future we have received the
       
       <p>Hanon was taken to prison in the Castle of La Motte at Luzarches and had been there for three months at the time of the letter. Finally, the letter requests that he be pardoned for his crime based on his previous honorable life. His actions toward his wife were framed as an outlier, as he had put up with her bad behavior for at least eight years. Hanon requested pardon from the King and he was granted pardon in October of 1416.</p>
     </div>
-
-    <h3 id="medieval-motherhood" class="essay-title">Medieval Motherhood</h3>
-    <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
-    <div class="essay-content">
-      <p>In the Middle Ages, being a wife was difficult; so was being a mother. In the Good Wife's Guide, there is a section dedicated to motherhood. All wives were expected to become mothers. All aspects of child rearing were left up to the mother. The knowledge and fears about childbearing and raising children all stemmed from women, as the husbands were expected to continue working.</p>
-      
-      <p>However, some mothers had to return to work for the family if they were of middle or lower class. Conflict arose between wives and husbands in this scenario, especially if the husband accused the wife of neglecting her duties as a mother. This is evident when Huguecte is accosted by her husband for abandoning her children and wishing they were toads. Other than being a faithful wife, motherhood was the most important job for Medieval women.</p>
-      
-      <h4>Further Reading</h4>
-      <p>Greco, Gina L., and Christine M. Rose, eds. 2009. <em>The Good Wife's Guide =: Le Ménagier de Paris: A Medieval Household Book</em>. Ithaca: Cornell University Press.</p>
-      <p>Atkinson, Clarissa W. <em>The Oldest Vocation: Christian Motherhood in the Medieval West</em>. Cornell University Press, 1991.</p>
-    </div>
-    </div>
-  
-  <div id="social-expectations" class="essay">
-    <h3 class="essay-title">Social Expectations in Medieval Marriage</h3>
-    <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
-    <div class="essay-content">
-      <p>Women in the Middle Ages were expected to be fully devoted to their husbands, and fully devoted to God. A publication called the Good Wife's Guide began as a collection of advice, personality traits, and duties of a good Parisian wife. The three main concerns were morality, domestic life, and hosting. The wife's goal was meant to be a "moral, obedient, and attentive wife." When Huguecte left her husband, one of the reasons he gives for being so angry at her is that she went to stay with other men in the Hôtel.</p>
-      
-      <p>In addition, women who were married were expected to have children and raise them. These expectations were ingrained in all social aspects of the Middle Ages. There was an emphasis on monogamy and chastity in order for wives to please their husbands and God. In fact, it was believed that the commandment for women to be obedient to their husbands came directly from God. Husbands had the upper hand in the relationship, and often had legal privileges if he did not approve of his wife's behavior.</p>
-      
-      <h4>Further Reading</h4>
-      <p>Greco, Gina L., and Christine M. Rose, eds. 2009. <em>The Good Wife's Guide =: Le Ménagier de Paris: A Medieval Household Book</em>. Ithaca: Cornell University Press.</p>
-      <p>Butler, Sara. 2006. "Runaway Wives: Husband Desertion in Medieval England." <em>Journal of Social History</em> 40 (2): 337–59.</p>
-      <p>Dean, Trevor. 2004. "Gender and Insult in an Italian City: Bologna in the Later Middle Ages." <em>Social History</em> 29 (2): 217–31.</p>
-      <p>Otis-Cour, Leah. 2009. "'De Jure Novo': Dealing with Adultery in the Fifteenth-Century Toulousain." <em>Speculum</em> 84 (2): 347–92.</p>
-    </div>
-  </div>
-  
-  <div id="male-female-honor" class="essay">
-    <h3 class="essay-title">Male and Female Honor</h3>
-    <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
-    <div class="essay-content">
-      <p>Many pardon letters were written to heighten the honorable qualities of the petitioner in order to make him or her appear worthy of a pardon. Men were often insulted in the public sphere, and judgements were made based on their honesty and worth. A lot of violence between men was based on reactions to being dishonored by someone publicly. When a man felt his masculinity affronted, his deepest honor, violence was likely.</p>
-      
-      <p>Women had strict social rules that included avoiding eye contact with people in public. They were taught to avoid perception because it could be misconstrued as promiscuity. Virginity, beauty, wealth, and faith to her husband were the most important qualities of honor in a woman. "Loose" women were frowned upon. Violence involving women were often perpetrated by men, with women as accomplices or instigators.</p>
-      
-      <h4>Further Reading</h4>
-      <p>Dean, Trevor. 2001. "Women and Crime." In <em>Crime in Medieval Europe 1200-1550</em>. Pearson Education.</p>
-      <p>Greco, Gina L., and Christine M. Rose, eds. 2009. <em>The Good Wife's Guide =: Le Ménagier de Paris: A Medieval Household Book</em>. Ithaca: Cornell University Press.</p>
-    </div>
-  </div>
-  
-  <div id="money-class" class="essay">
-    <h3 class="essay-title">Money and Class</h3>
-    <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
-    <div class="essay-content">
-      <p>Husbands were expected to be the bread winners of their households. They were the entire financial security for their wives in the Middle Ages. This ideal continued into the social expectations of marriage. Men were supposed to marry women who were of the same social class in order to avoid unnecessary disagreements. A man's honor was tied directly to his ability to provide for his family. Sometimes, wives would abandon their husbands if they felt they were not being taken care of. This was a blow to both of their honors.</p>
-      
-      <p>The 100 years' war was also occurring at this time. This war heavily affected peasants in Paris. These wars destroyed crops, homes, and livelihoods of many low-class workers in the area. For this reason, many worked less than they may have needed in order to make a living.</p>
-      
-      <h4>Further Reading</h4>
-      <p>Butler, Sara. 2006. "Runaway Wives: Husband Desertion in Medieval England." <em>Journal of Social History</em> 40 (2): 337–59.</p>
-      <p>Dean, Trevor. 2001. "Women and Crime." In <em>Crime in Medieval Europe 1200-1550</em>. Pearson Education.</p>
-      <p><em>History Today</em>. 1983. "French Peasants in the Hundred Years War," June 1983.</p>
-    </div>
-  </div>
-  
-  <div id="witchcraft" class="essay">
-    <h3 class="essay-title">Witchcraft</h3>
-    <div class="essay-author">By Corissa Ross, Hendrix College '24</div>
-    <div class="essay-content">
-      <p>In Jehan's testimony, he recalls an incident where his wife wished that her children would turn into toads. This allegation of witchcraft and cursing would not have been taken lightly in the Middle Ages. Witchcraft was often attributed to women during this time. The involvement of witchcraft and child rearing was a big concern.</p>
-      
-      <p>People in this time were expected to be devoted to God. Any involvement with witchcraft was associated with the devil and often saw harsh interrogation and punishment. This was also a time when cursing could be seen as having actual physical harm. If Huguecte wished that her children turned into some sort of animal, her husband would be frightened. This is especially the case because she would have been responsible for caretaking and parenting of the children.</p>
-      
-      <h4>Further Reading</h4>
-      <p>Rider, Catherine. 2012. "Introduction." In <em>Magic and Religion in Medieval England</em>. Reaktion Books.</p>
-    </div>
-  </div>
-</div>

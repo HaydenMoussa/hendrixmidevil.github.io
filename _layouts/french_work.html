@@ -8,25 +8,18 @@ layout: default
   <div class="page-content">
     <!-- Sidebar navigation -->
     <div class="sidebar">
-      <h2>Navigation</h2>
+      <h2 style="margin-top: 20px;">Navigation</h2>
       <ul>
         <li class="subsection"><a href="#translation">English/French</a></li>
         <li class="subsection"><a href="#summary">Document Summary</a></li>
         <li class="section-heading">Essays:</li>
-        {% if page.essays %}
-          {% for essay in page.essays %}
-            <li class="subsection"><a href="#{{ essay.id }}">{{ essay.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          <li class="subsection"><a href="#medieval-motherhood">Medieval Motherhood</a></li>
-          <li class="subsection"><a href="#social-expectations">Social Expectations</a></li>
-          <li class="subsection"><a href="#male-female-honor">Male and Female Honor</a></li>
-          <li class="subsection"><a href="#money-class">Money and Class</a></li>
-          <li class="subsection"><a href="#witchcraft">Witchcraft</a></li>
-        {% endif %}
+        <li class="subsection"><a href="/essays/169-medieval-motherhood/">Medieval Motherhood</a></li>
+        <li class="subsection"><a href="/essays/169-social-expectations/">Social Expectations</a></li>
+        <li class="subsection"><a href="/essays/169-male-female-honor/">Male and Female Honor</a></li>
+        <li class="subsection"><a href="/essays/169-money-class/">Money and Class</a></li>
+        <li class="subsection"><a href="/essays/169-witchcraft/">Witchcraft</a></li>
       </ul>
     </div>
-
     <!-- Main content area -->
     <div class="main-content">
       <article class="page">
