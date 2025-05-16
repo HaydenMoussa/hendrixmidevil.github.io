@@ -14,9 +14,8 @@ permalink: /essays/172-pilgrimage/
 <img src="/assets/images/essayImg/pilgrimage.png" alt="Musée de Cluny: Pilgrimage Badge from Notre Dame de Boulogne-sur-Mer  " class="essay-image">
 <div class="image-caption">Musée de Cluny: Pilgrimage Badge from Notre Dame de Boulogne-sur-Mer  </div>
 </div>
-    
     <h4>Further Reading</h4>
-    <p>French Museum: Mussée de Cluny, Tour Jean Sans Peur, Guédelon Webb, Diana. Pilgrims and Pilgrimage in the Medieval West. New York: I.B. Tauris & Co Ltd, 2001. Pp 11-63. </p>
+    <p style="display: flex;">French Museum: Mussée de Cluny, Tour Jean Sans Peur, Guédelon Webb, Diana. Pilgrims and Pilgrimage in the Medieval West. New York: I.B. Tauris & Co Ltd, 2001. Pp 11-63. </p>
   </div>
 </div>
 </div>

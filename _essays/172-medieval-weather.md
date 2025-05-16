@@ -1,7 +1,7 @@
 ---
 layout: essays
 title: Medieval Weather
-permalink: /essays/172-medeival-weather/
+permalink: /essays/172-medieval-weather/
 ---
 
 <div id="witchcraft" class="essay">
