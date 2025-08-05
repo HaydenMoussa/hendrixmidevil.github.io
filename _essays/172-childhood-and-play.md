@@ -12,7 +12,8 @@ permalink: /essays/172-childhood-and-play/
 
 
 <div class="image-container">
-<img src="/assets/images/essayImg/Childhoodandplay.png" alt="Musée de Cluny " class="essay-image">
+<!-- <img src="/assets/images/essayImg/Childhoodandplay.png" alt="Musée de Cluny " class="essay-image"> -->
+<img src="{{ '/assets/images/essayImg/Childhoodandplay.png' | relative_url }}" alt="Musée de Cluny" class="essay-image">
 <div class="image-caption">Musée de Cluny </div>
 </div>
     

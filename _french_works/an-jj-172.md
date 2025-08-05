@@ -55,7 +55,7 @@ excerpt: A 15th century French legal document detailing the case of Jehan Hanon,
   <p>By: Ellery Seymour</p>
 
 <div class="image-container">
-<img src="/assets/images/essayImg/172-main.png" alt="Art Work by Hendrix Student   " class="essay-image">
+<img src="{{ '/assets/images/essayImg/172-main.png' | relative_url }}" alt="Art Work by Hendrix Student" class="essay-image">
 <div class="image-caption">Art Work by Hendrix Student   </div>
 
     </div>
