@@ -133,7 +133,6 @@ defaults:
       path: ""
       type: french_works
     values:
-      layout: french_work
       author_profile: false
       share: false
       classes: wide
@@ -142,7 +141,6 @@ defaults:
       path: ""
       type: essays
     values:
-      layout: single
       author_profile: false
       share: false
       classes: wide
