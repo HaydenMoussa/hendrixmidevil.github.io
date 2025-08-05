@@ -47,7 +47,7 @@ Charles etc. We make known to all present and in the future we have received the
       By: Aleksandra Pfau
 
 <div class="image-container">
-<img src="/assets/images/essayImg/169-main.jpg" alt="Art Work by Hendrix Student   " class="essay-image">
+<img src="{{ '/assets/images/essayImg/169-main.jpg' | relative_url }}" alt="Art Work by Hendrix Student" class="essay-image">
 <div class="image-caption">Art Work by Hendrix Student   </div>
 </div>
     </div>

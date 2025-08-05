@@ -16,6 +16,9 @@
 
 repository: hendrixmidevil/hendrixmidevil.github.io
 
+baseurl: "/hendrixmidevil.github.io"
+url: "https://haydenmoussa.github.io"
+
 title: Medieval Crime
 email:
 description: >- # this means to ignore newlines until "baseurl:"
