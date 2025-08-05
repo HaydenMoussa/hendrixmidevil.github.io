@@ -16,7 +16,8 @@
 
 repository: hendrixmidevil/hendrixmidevil.github.io
 
-baseurl: "/hendrixmidevil.github.io"
+# Fix the baseurl and url configuration
+baseurl: ""  # Leave empty for username.github.io repositories
 url: "https://haydenmoussa.github.io"
 
 title: Medieval Crime
@@ -47,6 +48,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+# Fixed collections configuration
 collections:
   french_works:
     output: true
@@ -54,7 +56,6 @@ collections:
   essays:
     output: true
     permalink: /essays/:path/
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
