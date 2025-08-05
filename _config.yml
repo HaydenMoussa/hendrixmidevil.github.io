@@ -133,7 +133,7 @@ defaults:
       path: ""
       type: french_works
     values:
-      layout: single
+      layout: french_work
       author_profile: false
       share: false
       classes: wide
