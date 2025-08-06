@@ -2,6 +2,7 @@
 layout: essays
 title: Pilgrimage
 permalink: /essays/172-pilgrimage/
+document: jj172
 ---
 
 <div id="witchcraft" class="essay">

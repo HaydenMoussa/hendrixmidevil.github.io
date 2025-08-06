@@ -2,6 +2,7 @@
 layout: essays
 title: Childhood and Play
 permalink: /essays/172-childhood-and-play/
+document: jj172
 ---
 
 <div id="male-female-honor" class="essay">

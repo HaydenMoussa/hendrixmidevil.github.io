@@ -2,6 +2,7 @@
 layout: essays
 title: Medieval Weather
 permalink: /essays/172-medieval-weather/
+document: jj172
 ---
 
 <div id="witchcraft" class="essay">

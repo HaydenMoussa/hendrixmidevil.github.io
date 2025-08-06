@@ -16,17 +16,41 @@ layout: default
           <div class="sidebar">
             <h2 style="margin-top: 20px;">Navigation</h2>
             <ul>
-              <li class="subsection"><a href="{{ '/french-works/an-jj-169' | relative_url }}">Back</a></li>
-              <li class="section-heading">Essays:</li>
-              <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
-              <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
-              <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
-              <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
-              <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
-              <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
-              <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
-              <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
-              <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+              {% assign essay_filename = page.path | split: '/' | last | split: '.' | first %}
+              {% if essay_filename contains '169' %}
+                <li class="subsection"><a href="{{ '/french-works/an-jj-169' | relative_url }}">Back to JJ 169</a></li>
+                <li class="section-heading">Related Essays:</li>
+                {% unless page.url contains '169-medieval-motherhood' %}
+                  <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
+                {% endunless %}
+                {% unless page.url contains '169-social-expectations' %}
+                  <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
+                {% endunless %}
+                {% unless page.url contains '169-male-female-honor' %}
+                  <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
+                {% endunless %}
+                {% unless page.url contains '169-money-class' %}
+                  <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
+                {% endunless %}
+                {% unless page.url contains '169-witchcraft' %}
+                  <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
+                {% endunless %}
+              {% elsif essay_filename contains '172' %}
+                <li class="subsection"><a href="{{ '/french-works/an-jj-172' | relative_url }}">Back to JJ 172</a></li>
+                <li class="section-heading">Related Essays:</li>
+                {% unless page.url contains '172-errands' %}
+                  <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
+                {% endunless %}
+                {% unless page.url contains '172-medieval-weather' %}
+                  <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
+                {% endunless %}
+                {% unless page.url contains '172-mobility-aids-in-the-medieval-era' %}
+                  <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
+                {% endunless %}
+                {% unless page.url contains '172-pilgrimage' %}
+                  <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+                {% endunless %}
+              {% endif %}
             </ul>
           </div>
           {{ content }}

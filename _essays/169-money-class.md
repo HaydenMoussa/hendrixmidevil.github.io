@@ -2,6 +2,7 @@
 layout: essays
 title: Money and Class
 permalink: /essays/169-money-class/
+document: jj169
 ---
 
 <div id="money-class" class="essay">

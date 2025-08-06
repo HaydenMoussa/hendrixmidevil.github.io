@@ -2,6 +2,7 @@
 layout: essays
 title: Social Expectations
 permalink: /essays/169-social-expectations/
+document: jj169
 ---
 
 <div id="social-expectations" class="essay">

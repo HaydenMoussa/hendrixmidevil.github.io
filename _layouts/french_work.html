@@ -13,15 +13,19 @@ layout: default
         <li class="subsection"><a href="#translation">English/French</a></li>
         <li class="subsection"><a href="#summary">Document Summary</a></li>
         <li class="section-heading">Essays:</li>
-        <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
-        <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
-        <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
-        <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
-        <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
-        <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
-        <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
-        <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
-        <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+        
+        {% if page.url contains 'an-jj-169' %}
+          <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
+          <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
+          <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
+          <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
+          <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
+        {% elsif page.url contains 'an-jj-172' %}
+          <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
+          <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
+          <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
+          <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+        {% endif %}
       </ul>
     </div>
     <!-- Main content area -->

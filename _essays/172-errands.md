@@ -2,6 +2,7 @@
 layout: essays
 title: Errands
 permalink: /essays/172-errands/
+document: jj172
 ---
 
 <div id="witchcraft" class="essay">

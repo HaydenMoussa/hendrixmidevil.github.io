@@ -2,6 +2,7 @@
 layout: essays
 title: Witchcraft
 permalink: /essays/169-witchcraft/
+document: jj169
 ---
 
 <div id="witchcraft" class="essay">

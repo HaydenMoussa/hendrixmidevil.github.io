@@ -2,6 +2,7 @@
 layout: essays
 title: Male and Female Honor
 permalink: /essays/169-male-female-honor/
+document: jj169
 ---
 
 <div id="male-female-honor" class="essay">

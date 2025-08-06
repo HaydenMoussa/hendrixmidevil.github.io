@@ -2,6 +2,7 @@
 layout: essays
 title: Mobility Aids in the Medieval Era
 permalink: /essays/172-mobility-aids-in-the-medieval-era/
+document: jj172
 ---
 
 <div id="witchcraft" class="essay">

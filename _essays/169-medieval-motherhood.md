@@ -2,6 +2,7 @@
 layout: essays
 title: Medieval Motherhood
 permalink: /essays/169-medieval-motherhood/
+document: jj169
 ---
 
 <div>
