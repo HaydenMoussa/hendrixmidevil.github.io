@@ -44,10 +44,10 @@ Charles etc. We make known to all present and in the future we have received the
       <p>Hanon was drunk, and in a fit of rage, he remembered all the misdeeds that he had suffered at the hands of his wife. He stabbed her twice, and she died.</p>
       
       <p>Hanon was taken to prison in the Castle of La Motte at Luzarches and had been there for three months at the time of the letter. Finally, the letter requests that he be pardoned for his crime based on his previous honorable life. His actions toward his wife were framed as an outlier, as he had put up with her bad behavior for at least eight years. Hanon requested pardon from the King and he was granted pardon in October of 1416.</p>
-      By: Aleksandra Pfau
+      By: Corissa Ross
 
 <div class="image-container">
-<img src="{{ '/assets/images/essayImg/169-main.jpg' | relative_url }}" alt="Art Work by Hendrix Student" class="essay-image">
-<div class="image-caption">Art Work by Hendrix Student   </div>
+<img src="{{ '/assets/images/essayImg/169-main.jpg' | relative_url }}" alt="Art Work by Olivia Larson '24" class="essay-image">
+<div class="image-caption">Art Work by Olivia Larson '24</div>
 </div>
     </div>
