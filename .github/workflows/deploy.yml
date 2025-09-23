@@ -1,0 +1,35 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+    
+    - name: Build Jekyll site
+      run: |
+        bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+    
+    - name: Deploy to server
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: 23.95.44.78
+        username: ${{ secrets.SERVER_USER }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        source: "_site/*"
+        target: "/var/www/medievalcrime"
+        strip_components: 1
+        rm: true
