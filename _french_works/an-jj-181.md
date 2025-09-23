@@ -2,7 +2,7 @@
 layout: french_work
 title: Archives Nationales JJ 181 fo 142
 permalink: /french-works/an-jj-181/
-excerpt: A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.
+excerpt: Poiron Guilloten burned down a hostel to revenge Jehan Lavau's refusal to marry her after getting her pregnant, but received a royal pardon when the king determined she only intended to harm Lavau and not the other tenants.
 ---
 
 <div id="translation" class="document-container">
@@ -27,7 +27,7 @@ Charles by the grace of God King of France We make known to all present and to c
   <h2 class="essays-title">Summary</h2>
     <div class = "essay-content">
 <p>Poiron Guilloten, daughter of Pierre Guilloten, was sent to prison in Bourges, France for burning down the house of Jehan Lavau in Marmaigues. A year and a half earlier, Lavau had been aggressively pursuing Guilloten for sex, moves that were refused, but after promising to marry her, Guilloten became pregnant. Lavau then refused to marry her. Worried about dishonor from her family and community, Guilloten set the hostel Lavau lived in on fire as an act of revenge. She thought that Lavau owned the hostel, but he only rented a small section.</p>
-<p>The fire caused significant damage, worth twelve to fifteen pounds tournois. Lavau later admitted that he did not follow his word and promised he would marry Guilloten if the king pardoned her. The King said that “she did not know well what she was doing” when she committed the crime, explaining that she only meant to harm Lavau and not the other renters or the owner of the hostel. This pardon helped restore Guilloten’s reputation by helping her reinstate herself in the community. \</p>
+<p>The fire caused significant damage, worth twelve to fifteen pounds tournois. Lavau later admitted that he did not follow his word and promised he would marry Guilloten if the king pardoned her. The King said that “she did not know well what she was doing” when she committed the crime, explaining that she only meant to harm Lavau and not the other renters or the owner of the hostel. This pardon helped restore Guilloten’s reputation by helping her reinstate herself in the community. </p>
 <p>By: Lathan Smalley '26</p>
 
 <div class="image-container">

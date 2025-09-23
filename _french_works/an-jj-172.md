@@ -2,7 +2,7 @@
 layout: french_work
 title: Archives Nationales JJ 172 fo 180 no 348 Original
 permalink: /french-works/an-jj-172/
-excerpt: A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.
+excerpt: In 1422, Pierre Terry, an elderly sick tailor, accidentally killed a boy named Pierre le Rat with his ice-walking stick while defending himself from the boy's snowball attacks, leading to his exile and eventual pardon on condition of making a pilgrimage.
 ---
 
 <div id="translation" class="document-container">

@@ -14,18 +14,26 @@ layout: default
         <li class="subsection"><a href="#summary">Document Summary</a></li>
         <li class="section-heading">Essays:</li>
         
-        {% if page.url contains 'an-jj-169' %}
-          <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
-          <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
-          <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
-          <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
-          <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
-        {% elsif page.url contains 'an-jj-172' %}
-          <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
-          <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
-          <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
-          <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
-        {% endif %}
+      {% if page.url contains 'an-jj-120' %}
+        <li class="subsection"><a href="{{ '/essays/120-free-will/' | relative_url }}">Free Will</a></li>
+        <li class="subsection"><a href="{{ '/essays/120-love-and-magic/' | relative_url }}">Love And Magic</a></li>
+        <li class="subsection"><a href="{{ '/essays/120-social-hierarchy/' | relative_url }}">Social Hierarchy</a></li>
+      {% elsif page.url contains 'an-jj-169' %}
+        <li class="subsection"><a href="{{ '/essays/169-medieval-motherhood/' | relative_url }}">Medieval Motherhood</a></li>
+        <li class="subsection"><a href="{{ '/essays/169-social-expectations/' | relative_url }}">Social Expectations</a></li>
+        <li class="subsection"><a href="{{ '/essays/169-male-female-honor/' | relative_url }}">Male and Female Honor</a></li>
+        <li class="subsection"><a href="{{ '/essays/169-money-class/' | relative_url }}">Money and Class</a></li>
+        <li class="subsection"><a href="{{ '/essays/169-witchcraft/' | relative_url }}">Witchcraft</a></li>
+      {% elsif page.url contains 'an-jj-172' %}
+        <li class="subsection"><a href="{{ '/essays/172-errands/' | relative_url }}">Errands</a></li>
+        <li class="subsection"><a href="{{ '/essays/172-medieval-weather/' | relative_url }}">Medieval Weather</a></li>
+        <li class="subsection"><a href="{{ '/essays/172-mobility-aids-in-the-medieval-era/' | relative_url }}">Mobility Aids in the Medieval Era</a></li>
+        <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+      {% elsif page.url contains 'an-jj-181' %}
+        <li class="subsection"><a href="{{ '/essays/181-arson/' | relative_url }}">Arson</a></li>
+        <li class="subsection"><a href="{{ '/essays/181-royal-pardons/' | relative_url }}">Royal Pardons</a></li>
+        <li class="subsection"><a href="{{ '/essays/181-womens-autonomy/' | relative_url }}">Womens Autonomy</a></li>
+      {% endif %}
       </ul>
     </div>
     <!-- Main content area -->

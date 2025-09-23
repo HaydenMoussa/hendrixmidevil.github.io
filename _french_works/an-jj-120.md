@@ -2,7 +2,7 @@
 layout: french_work
 title: Archives Nationales JJ 120 fo 57v no 102 Original
 permalink: /french-works/an-jj-120/
-excerpt: A 15th century French legal document detailing the case of Jehan Hanon, who murdered his wife Huguecte and requested pardon from the King.
+excerpt: Jehannette de Lospital's legal document pardoning her for the use of sorcery.
 ---
 
 <div id="translation" class="document-container">

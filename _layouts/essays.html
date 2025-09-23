@@ -17,7 +17,19 @@ layout: default
             <h2 style="margin-top: 20px;">Navigation</h2>
             <ul>
               {% assign essay_filename = page.path | split: '/' | last | split: '.' | first %}
-              {% if essay_filename contains '169' %}
+              {% if essay_filename contains '120' %}
+                <li class="subsection"><a href="{{ '/french-works/an-jj-120' | relative_url }}">Back to JJ 120</a></li>
+                <li class="section-heading">Related Essays:</li>
+                {% unless page.url contains '120-free-will' %}
+                <li class="subsection"><a href="{{ '/essays/120-free-will/' | relative_url }}">Free Will</a></li>
+                {% endunless %}
+                {% unless page.url contains '120-love-and-magic' %}
+                <li class="subsection"><a href="{{ '/essays/120-love-and-magic/' | relative_url }}">Love And Magic</a></li>
+                {% endunless %}
+                {% unless page.url contains '120-social-hierarchy' %}
+                <li class="subsection"><a href="{{ '/essays/120-social-hierarchy/' | relative_url }}">Social Hierarchy</a></li>
+                {% endunless %}
+              {% elsif essay_filename contains '169' %}
                 <li class="subsection"><a href="{{ '/french-works/an-jj-169' | relative_url }}">Back to JJ 169</a></li>
                 <li class="section-heading">Related Essays:</li>
                 {% unless page.url contains '169-medieval-motherhood' %}
@@ -49,6 +61,18 @@ layout: default
                 {% endunless %}
                 {% unless page.url contains '172-pilgrimage' %}
                   <li class="subsection"><a href="{{ '/essays/172-pilgrimage/' | relative_url }}">Pilgrimage</a></li>
+                {% endunless %}
+              {% elsif essay_filename contains '181' %}
+                <li class="subsection"><a href="{{ '/french-works/an-jj-181' | relative_url }}">Back to JJ 181</a></li>
+                <li class="section-heading">Related Essays:</li>
+                {% unless page.url contains '181-arson' %}
+                <li class="subsection"><a href="{{ '/essays/181-arson/' | relative_url }}">Arson</a></li>
+                {% endunless %}
+                {% unless page.url contains '181-royal-pardons' %}
+                <li class="subsection"><a href="{{ '/essays/181-royal-pardons/' | relative_url }}">Royal Pardons</a></li>
+                {% endunless %}
+                {% unless page.url contains '181-womens-autonomy' %}
+                <li class="subsection"><a href="{{ '/essays/181-womens-autonomy/' | relative_url }}">Womens Autonomy</a></li>
                 {% endunless %}
               {% endif %}
             </ul>
